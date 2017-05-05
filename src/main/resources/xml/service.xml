@@ -1,0 +1,8 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:esb="http://www.joinforwin.com/schema/esb"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                                    http://www.joinforwin.com/schema/esb  http://www.joinforwin.com/schema/esb.xsd">
+    <esb:componment1 id="service" inputId="aaa" outputId="21"/>
+    <esb:componment2 id="service1" inputId="aaa1" outputId="21"/>
+</beans>
